@@ -1,0 +1,24 @@
+--[[
+  ______   ____    ____  _______ .______       __  ___  __   __       __      
+ /  __  \  \   \  /   / |   ____||   _  \     |  |/  / /_ | |  |     |  |     
+|  |  |  |  \   \/   /  |  |__   |  |_)  |    |  '  /   | | |  |     |  |     
+|  |  |  |   \      /   |   __|  |      /     |    <    | | |  |     |  |     
+|  `--'  |    \    /    |  |____ |  |\  \----.|  .  \   | | |  `----.|  `----.
+ \______/      \__/     |_______|| _| `._____||__|\__\  |_| |_______||_______|
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/typical-overk1ll/scripts/main/Invite",true))()
+function msg(text)
+    local A_1 = text
+local A_2 = "booth"
+local event = game:GetService("ReplicatedStorage").Events.EditBooth
+event:FireServer(A_1, A_2)
+end
+while wait(2) do
+    msg("<stroke color="#2A0030" thickness="12"><font size="90"><font color= "#FFA500"><font face="Bangers">Anime girls for sale!</font></font></font></stroke>")
+    wait(2)
+    msg("<stroke color="#2A0030" thickness="12"><font size="90"><font color= "#FF0000"><font face="Bangers">Most of my donations are used to donate others!</font></font></font></stroke>")
+    wait(2)
+    msg("<stroke color="#2A0030" thickness="12"><font size="90"><font color= "#0000FF"><font face="Bangers">Anime girls for sale!</font></font></font></stroke>")
+    wait(2)
+    msg("<stroke color="#2A0030" thickness="12"><font size="90"><font color= "#008000"><font face="Bangers">Most of my robux is used to donate others!</font></font></font></stroke>")
+    end
